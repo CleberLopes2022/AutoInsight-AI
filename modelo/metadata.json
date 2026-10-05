@@ -1,0 +1,25 @@
+{
+    "nome": "AutoInsight ML",
+    "versao": "1.0",
+    "algoritmo": "HistGradientBoostingRegressor",
+    "target": "target_variacao_proximo_mes",
+    "features": [
+        "idade_veiculo",
+        "preco",
+        "mes",
+        "variacao_mensal_pct",
+        "variacao_3m_pct",
+        "variacao_6m_pct",
+        "variacao_12m_pct",
+        "momentum_1_3",
+        "momentum_3_6",
+        "volatilidade_6m",
+        "dist_media_6m_pct"
+    ],
+    "data_ultimo_registro": "2026-09-01",
+    "metricas_referencia": {
+        "mae": 1359.79,
+        "rmse": 6376.31,
+        "mape": 1.0684
+    }
+}

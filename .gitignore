@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Variáveis de ambiente
+.env
+
+# Base FIPE original (grande e desnecessária no deploy)
+fipex-prices-latest-merged.parquet
+
+# Arquivos auxiliares
+*.pdf
