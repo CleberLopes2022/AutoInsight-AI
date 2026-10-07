@@ -70,7 +70,7 @@ except Exception as erro:
 # =========================================================
 
 try:
-    df_fipe = pd.read_parquet(DATA_PATH)
+    df_fipe = pd.read_csv("data/fipe_api.csv")
 
 except Exception as erro:
     raise RuntimeError(
